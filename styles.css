@@ -1,0 +1,134 @@
+/* Gerneral properties */
+
+
+
+html, body {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F2F2F2;
+    
+}
+
+h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 6em;
+    margin: 0;
+    color: #112924;
+}
+
+span {
+ color: #FF6565;
+}
+
+h2, h3, p {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #112924;
+}
+
+/* Nav properties */
+
+nav {
+    width: auto;
+    display: flex;
+    align-items: center;
+    background-color: #242425;
+    top: 0px;
+    left: 0px;
+    height: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background: #242425 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+
+.nav-items {
+    display: flex;
+    
+    margin-left: auto;
+    list-style-type: none;
+
+    
+}
+
+#logo {
+    
+    
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.2em;
+    
+    color: #FF6565;
+    opacity: 1;
+}
+
+.nav-item {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.2em;
+    
+    
+    margin-left: 3em;
+    
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #F2F2F2;
+}
+
+/* Main container properties */
+
+main {
+    flex: 1 0 auto;
+}
+
+.about-me-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 7em;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.about-me-text-container {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.about-me-image-container {
+    
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-left: 5%;
+}
+
+.about-me-image-container p {
+    display: flex;
+    justify-content: center;
+}
+
+.skill-icons {
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer*/
+
+footer {
+    flex-shrink: 0;
+    text-align: center;
+}
+
+footer p {
+    font-family: 'Silkscreen', cursive;
+}
