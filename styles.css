@@ -109,7 +109,7 @@ main {
     display: flex;
     flex: 2 2;
     flex-direction: column;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     align-items: flex-start;
     /* Need to see how to better space the text, 
     maybe as non Flex items */
@@ -139,9 +139,19 @@ main {
 .skill-icons {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    
     /* Need to find a way to resize these 
     possible max-width needed*/
     
+}
+
+.skill-icons img {
+    max-width: 90px;
+}
+
+.about-me-text-container a {
+    margin-top: auto;
 }
 
 .button-projects {
@@ -155,7 +165,7 @@ main {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 1.5em;
     border-radius: 11px;
-    
+    cursor: pointer;
   }
 
 /* Footer*/
