@@ -58,7 +58,17 @@ p {
 }
 
 span {
- color: #112924;
+    display: inline-block;
+    color: #112924;
+    transition: all .2s ease-in-out;
+}
+
+span:hover {
+    transform: scale(1.1);
+}
+
+span:active {
+    transform: scale(1.0);
 }
 
 h2, h3, p {
@@ -120,6 +130,11 @@ nav {
     
     color: #F2F2F2;
     text-decoration: none;
+}
+
+#logo-out a:hover {
+    color: #FF6565;
+    transition-duration: 150ms;
 }
 
 .nav-item {
